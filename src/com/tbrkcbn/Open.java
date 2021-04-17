@@ -20,8 +20,8 @@ public class Open {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                App myApp = new App();
-                myApp.setVisible(true);
+                CreateAppointment createAppointment = new CreateAppointment();
+                createAppointment.setVisible(true);
             }
         });
 
